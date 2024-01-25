@@ -1,0 +1,210 @@
+input[type=text] {
+    width: 50%;
+    height: 5%;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+  }
+
+  input[type=submit]{
+    width: 10%;
+    background-color: #337135;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+  }
+
+  input[type=submit]:hover {
+      background-color: #6bd170;
+  }
+
+  input[type=checkbox]{
+      font-size: larger;
+      padding: 5px;
+      display:  inline-block;
+  }
+
+  form {
+    width: 70%;
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+      margin: 10px 30%;
+  }
+
+  .label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .label-in {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .chckgroup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 10px;
+  }
+
+  .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+      font-weight: bolder;
+      font-style: italic;
+      max-width: 100%;
+      min-width: 50%;
+      height: 70px;
+      background-color: #79a56a;
+      color: #366038;
+      box-shadow: 0px 0px 5px 0px black;
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      line-height: 100px;
+  }
+
+.titleDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    background-color: #D5CECC;
+}
+
+.backLink {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.head {
+    display: inline-block;
+}
+
+
+.new-note{
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.new-note a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: #4a7c4d;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.titleContainer {
+    border: 2px solid #73AD21;
+    box-sizing: border-box;
+    background-color: #79a56a;
+    height: 60px;
+    padding-top: 5px;
+    padding-right: 2px;
+}
+
+.nt-title {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5px;
+    
+}
+
+.nt-links {
+    max-width: 60%;
+    float: right;
+}
+
+.nt-link{
+    font-weight: bold;
+    font-size: small;
+    display: inline;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #294d2b;
+}
+.delete{
+    font-weight: bold;
+    font-size: small;
+    display: inline;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #b01717;
+
+}
+
+.note {
+    width: 30%;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 5px 0px rgb(97, 132, 81);
+    border-radius: 5px;
+    
+}
+
+.nt-content {
+    background-color: #C7ECB8;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.imp {
+    display: block;
+    color: red;
+    font-weight: bold;
+
+}
